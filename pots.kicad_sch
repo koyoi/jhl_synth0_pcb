@@ -169,6 +169,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDA"
 			(power)
 			(pin_numbers
@@ -409,6 +646,24 @@
 		(uuid "00c76d22-a2bc-4300-8755-da98c21aff7e")
 	)
 	(junction
+		(at 264.16 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074074d8-d146-4c67-8529-367b77fd7d8e")
+	)
+	(junction
+		(at 274.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0848946e-964a-4dd2-a0cb-cd782b1c00cd")
+	)
+	(junction
+		(at 274.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a1ee77-1c50-4bdc-a222-cd5329243c87")
+	)
+	(junction
 		(at 43.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -463,6 +718,12 @@
 		(uuid "475eca5b-3b54-41ad-b80f-92c7f0a743b1")
 	)
 	(junction
+		(at 264.16 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5207aa48-9f77-46e5-b0c5-4ce9e997420e")
+	)
+	(junction
 		(at 82.55 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -481,6 +742,18 @@
 		(uuid "71d4611d-2965-4c7d-aa76-76e9d8609dbf")
 	)
 	(junction
+		(at 274.32 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745f5bb6-532b-4c36-bbf5-a86599d888f9")
+	)
+	(junction
+		(at 264.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75aaacd9-3bf4-447e-bd4c-37abe54888ed")
+	)
+	(junction
 		(at 43.18 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -497,6 +770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cd4d83d-e24c-4c4d-a879-52e2245452fb")
+	)
+	(junction
+		(at 274.32 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983e68b1-cdfd-4d94-8cb8-f3a6731f77c9")
 	)
 	(junction
 		(at 104.14 62.23)
@@ -529,10 +808,22 @@
 		(uuid "b3a6d3f6-8276-45ba-90b5-1e414165af8f")
 	)
 	(junction
+		(at 274.32 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbc85640-172f-4c2d-9073-970ed9cc6b74")
+	)
+	(junction
 		(at 43.18 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffaa754-a3f2-4b06-8d42-d69e81045b88")
+	)
+	(junction
+		(at 264.16 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c670b98c-f84f-4c18-8249-3502c82d2124")
 	)
 	(junction
 		(at 43.18 35.56)
@@ -545,6 +836,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc5e0148-1f8e-457f-a584-3e83a374d6cd")
+	)
+	(junction
+		(at 274.32 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d192f3d6-0f21-4eb0-9d21-17a7040d98bc")
+	)
+	(junction
+		(at 264.16 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d25de69a-d021-44f5-9e8b-a01c86931551")
 	)
 	(junction
 		(at 67.31 59.69)
@@ -569,6 +872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f271c87c-ae91-4618-83e0-143ebcafe1e9")
+	)
+	(junction
+		(at 264.16 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50193b8-d054-48e5-bf1b-862ad19ea58e")
 	)
 	(junction
 		(at 27.94 119.38)
@@ -648,6 +957,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 142.24) (xy 274.32 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1243a1bd-0897-4ec4-b842-66c653f46bed")
+	)
+	(wire
+		(pts
 			(xy 78.74 95.25) (xy 67.31 95.25)
 		)
 		(stroke
@@ -665,6 +984,16 @@
 			(type default)
 		)
 		(uuid "14112539-72d6-4439-ae6d-dad75760669d")
+	)
+	(wire
+		(pts
+			(xy 274.32 54.61) (xy 274.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1462e9da-6330-47e2-bb12-ccc9bc862a6c")
 	)
 	(wire
 		(pts
@@ -768,6 +1097,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 80.01) (xy 274.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d3060f-3fc3-41a6-bafc-aaf19691d377")
+	)
+	(wire
+		(pts
 			(xy 43.18 114.3) (xy 43.18 115.57)
 		)
 		(stroke
@@ -858,6 +1197,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 25.4) (xy 264.16 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354bd349-52c0-44ba-853b-54a16d821042")
+	)
+	(wire
+		(pts
 			(xy 104.14 38.1) (xy 104.14 31.75)
 		)
 		(stroke
@@ -865,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "35d2d35a-8c0b-40c1-8d82-65a8bf0227e6")
+	)
+	(wire
+		(pts
+			(xy 264.16 72.39) (xy 264.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38033878-a1a2-43d7-a90a-f9e8654b1e87")
 	)
 	(wire
 		(pts
@@ -978,6 +1337,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 25.4) (xy 264.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575efa11-2b02-4de1-9c64-26d6b8be11c8")
+	)
+	(wire
+		(pts
+			(xy 274.32 149.86) (xy 274.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58db137c-2dbe-4267-af8f-39259e85ab69")
+	)
+	(wire
+		(pts
 			(xy 26.67 31.75) (xy 27.94 31.75)
 		)
 		(stroke
@@ -1028,6 +1407,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 142.24) (xy 264.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f01ebd2-b9bf-4f78-a2b8-5802a91b4412")
+	)
+	(wire
+		(pts
 			(xy 26.67 119.38) (xy 27.94 119.38)
 		)
 		(stroke
@@ -1055,6 +1444,16 @@
 			(type default)
 		)
 		(uuid "6298769c-093a-42fd-b291-d1cb23c2cf14")
+	)
+	(wire
+		(pts
+			(xy 274.32 101.6) (xy 274.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6408de62-696e-4b67-9b35-cb2044f7af57")
 	)
 	(wire
 		(pts
@@ -1138,6 +1537,26 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 72.39) (xy 274.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e9af2a-7f4c-4eff-a59a-b63d3edff4b3")
+	)
+	(wire
+		(pts
+			(xy 262.89 120.65) (xy 264.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728be211-ca5c-48cc-b56e-a6b5c3fc5d36")
+	)
+	(wire
+		(pts
 			(xy 27.94 125.73) (xy 27.94 119.38)
 		)
 		(stroke
@@ -1175,6 +1594,26 @@
 			(type default)
 		)
 		(uuid "778316fb-9926-4e0e-8e85-faf37cabe208")
+	)
+	(wire
+		(pts
+			(xy 264.16 46.99) (xy 264.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac1f548-90b4-41e7-9f24-d3e0ef412427")
+	)
+	(wire
+		(pts
+			(xy 262.89 93.98) (xy 264.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aea8e1a-af92-4437-b00a-107f5cdb2f84")
 	)
 	(wire
 		(pts
@@ -1258,6 +1697,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a73d18e-8967-47b1-ac42-2a3c4b8c5ece")
+	)
+	(wire
+		(pts
 			(xy 78.74 31.75) (xy 78.74 38.1)
 		)
 		(stroke
@@ -1268,6 +1717,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 142.24) (xy 264.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dd1da5-adfe-4935-84d9-0b3e8cdcf2cd")
+	)
+	(wire
+		(pts
 			(xy 104.14 68.58) (xy 104.14 62.23)
 		)
 		(stroke
@@ -1275,6 +1734,26 @@
 			(type default)
 		)
 		(uuid "aa56d5ad-5d6c-47a0-b065-c2d0f81793ed")
+	)
+	(wire
+		(pts
+			(xy 264.16 93.98) (xy 264.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab96778d-fae8-44e2-b26e-36943407fbf5")
+	)
+	(wire
+		(pts
+			(xy 264.16 120.65) (xy 264.16 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11099ab-5cff-419a-9440-08bd7d85f20d")
 	)
 	(wire
 		(pts
@@ -1318,6 +1797,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 120.65) (xy 274.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becab360-f489-4ce8-bcf1-fc97f36e2697")
+	)
+	(wire
+		(pts
 			(xy 43.18 64.77) (xy 43.18 67.31)
 		)
 		(stroke
@@ -1345,6 +1834,16 @@
 			(type default)
 		)
 		(uuid "c8d221d2-7a31-483d-ba55-df9fea69bcc7")
+	)
+	(wire
+		(pts
+			(xy 274.32 46.99) (xy 274.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc01263-38f9-4d8e-86a0-057298725205")
 	)
 	(wire
 		(pts
@@ -1398,6 +1897,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 25.4) (xy 274.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbd4730-61ef-4245-8eca-09141d04c6aa")
+	)
+	(wire
+		(pts
 			(xy 78.74 125.73) (xy 67.31 125.73)
 		)
 		(stroke
@@ -1408,6 +1917,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 46.99) (xy 264.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ced82a-d8f3-4d79-91b4-2765125ccf61")
+	)
+	(wire
+		(pts
+			(xy 274.32 33.02) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d256cc-01c1-479e-a366-8e7c39d1f522")
+	)
+	(wire
+		(pts
 			(xy 115.57 68.58) (xy 104.14 68.58)
 		)
 		(stroke
@@ -1415,6 +1944,16 @@
 			(type default)
 		)
 		(uuid "e57433a5-c45c-4102-b994-377fc94a3b2f")
+	)
+	(wire
+		(pts
+			(xy 274.32 128.27) (xy 274.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a0206-1f28-4747-bd6c-03dbafb759ec")
 	)
 	(wire
 		(pts
@@ -1445,6 +1984,16 @@
 			(type default)
 		)
 		(uuid "f72a7c93-35fd-41ab-807d-ce72d1a3ec14")
+	)
+	(wire
+		(pts
+			(xy 274.32 93.98) (xy 274.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f912fa5f-1c0f-4a76-a57f-ea8a9604f09e")
 	)
 	(wire
 		(pts
@@ -1498,6 +2047,17 @@
 		)
 		(uuid "41d664fb-2ddd-479e-8822-c82cb39908f9")
 	)
+	(hierarchical_label "sw5"
+		(shape input)
+		(at 262.89 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b4026c9-8211-4d97-95cc-8dc1a64f223e")
+	)
 	(hierarchical_label "a5"
 		(shape input)
 		(at 66.04 59.69 180)
@@ -1542,6 +2102,28 @@
 		)
 		(uuid "99ebd268-8363-4c5b-b93b-4f3c81ba5c0b")
 	)
+	(hierarchical_label "sw1"
+		(shape input)
+		(at 262.89 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a104c948-2408-452d-922c-3a69a292a64f")
+	)
+	(hierarchical_label "sw4"
+		(shape input)
+		(at 262.89 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1204052-e423-461c-a780-f4abf018c832")
+	)
 	(hierarchical_label "a9"
 		(shape input)
 		(at 102.87 62.23 180)
@@ -1552,6 +2134,28 @@
 			(justify right)
 		)
 		(uuid "b7672948-060e-497a-a9a3-c4c163fce131")
+	)
+	(hierarchical_label "sw2"
+		(shape input)
+		(at 262.89 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9a8b545-8892-49e0-a27a-d1c98b25a3a4")
+	)
+	(hierarchical_label "sw3"
+		(shape input)
+		(at 262.89 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3868cff-8285-4708-a684-6f21ff5607dd")
 	)
 	(hierarchical_label "a1"
 		(shape input)
@@ -1575,6 +2179,17 @@
 		)
 		(uuid "e4a534d4-8450-4454-af31-5d6ab8113fe3")
 	)
+	(hierarchical_label "sw0"
+		(shape input)
+		(at 262.89 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f51440ec-211e-470d-a725-c65911ed9883")
+	)
 	(hierarchical_label "a7"
 		(shape input)
 		(at 66.04 119.38 180)
@@ -1585,6 +2200,74 @@
 			(justify right)
 		)
 		(uuid "fa0773c6-4d0c-450d-b8ca-b376785ac0a7")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "042b41a4-eaf1-4905-8b81-a31fe55cbe8b")
+		(property "Reference" "SW2"
+			(at 269.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d54ee32-eb8a-47af-b32c-1bd5613939b3")
+		)
+		(pin "2"
+			(uuid "c8be425d-5236-4cd2-bd2f-686b56aa532a")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VDDA")
@@ -2007,6 +2690,274 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6dce8b-6871-48be-b7ca-8ebe03760464")
+		(property "Reference" "SW12"
+			(at 269.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ed7a3d-0441-4e15-8908-657e7b4a1b4a")
+		)
+		(pin "2"
+			(uuid "8b8b9a0e-618a-4e63-8648-3a14c328e8f3")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d64f86d-d7e2-463c-a159-bd16a09505da")
+		(property "Reference" "#PWR035"
+			(at 274.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e52b60e-0d8b-4919-8c4f-e8e19d1684ec")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff7b2ba-b204-4d40-95a6-c4b773127c18")
+		(property "Reference" "#PWR032"
+			(at 274.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24bf6303-7f77-49fa-a1a1-87716e0688b9")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ccf83c-f29d-46d1-b7e9-bd4745e5fe8a")
+		(property "Reference" "SW7"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2707e5-4163-48ae-b83e-d99ba557e83d")
+		)
+		(pin "2"
+			(uuid "7a2faf94-c3d0-4fa3-96f6-2fa7ea8e69a9")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 33.02 91.44 0)
 		(mirror y)
@@ -2075,6 +3026,74 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57803037-cc03-483b-b9f3-92d128ea5244")
+		(property "Reference" "SW9"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dc2fe0-ba58-404a-b6cb-09eb241cd661")
+		)
+		(pin "2"
+			(uuid "90bbfa4d-e4ad-48dc-9c2f-16275631b47a")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -2287,6 +3306,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62d6c506-6cf0-448c-8905-df202b68d681")
+		(property "Reference" "SW4"
+			(at 269.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc8255b7-8177-419c-9571-190a191f24d5")
+		)
+		(pin "2"
+			(uuid "4aa53c62-0a9f-4523-aee6-73c37c7935d0")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62fa035f-9d81-49cc-accf-36435d4aef7e")
+		(property "Reference" "#PWR033"
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d906f01-58d3-4781-bb96-a5e0ee76c4c0")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 109.22 62.23 0)
 		(mirror y)
@@ -2421,6 +3574,344 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743b67f8-ca2f-45fb-9b7b-0da7467040f2")
+		(property "Reference" "#PWR036"
+			(at 274.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38bf4bf2-4079-4f9f-99d2-62dd0f3eab26")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b715740-7009-4581-a86c-ed0904829e70")
+		(property "Reference" "SW11"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a036e2c-c25b-44b7-a3ac-00d8f3e209df")
+		)
+		(pin "2"
+			(uuid "42c150ea-9a89-47a8-9759-069ae9714908")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb00c3b-4d03-4ee6-b06a-2d5ea051858e")
+		(property "Reference" "SW6"
+			(at 269.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2f11d97-e6d7-4970-ac30-e73fdc7ffb9d")
+		)
+		(pin "2"
+			(uuid "021c37fb-0213-4898-bbfc-bd49ecc00ba8")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "801f495f-d975-4ebe-ba7b-6a44b7a3ae4f")
+		(property "Reference" "SW10"
+			(at 269.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5d7f34-07bb-45a1-a3ad-658262f380de")
+		)
+		(pin "2"
+			(uuid "d0072569-7b7f-4173-821a-f8f0269a0eeb")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817678cc-d84c-4a0f-b65c-10e830df12a8")
+		(property "Reference" "SW1"
+			(at 269.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8372bbac-0e78-473d-aa14-4db45227e47b")
+		)
+		(pin "2"
+			(uuid "49ba307e-8f6b-477d-8821-902b58fdfe31")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2855,6 +4346,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f3641e0-c958-4394-8ea1-d9bcfbbe9e74")
+		(property "Reference" "SW3"
+			(at 269.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de80720f-35d4-41a1-a121-04a6ab47d48c")
+		)
+		(pin "2"
+			(uuid "6d642c60-53be-47ae-9353-46ebb00f3ef0")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 72.39 31.75 0)
 		(mirror y)
@@ -2997,6 +4556,72 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "RV13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a05830c-4d73-4cf8-9a61-a6a3f314a42f")
+		(property "Reference" "#PWR037"
+			(at 274.32 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb52716-853c-488b-a248-c3c8a19c0c6d")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3277,6 +4902,74 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6adaa58-493b-49e6-a38c-16aa210f19b4")
+		(property "Reference" "SW8"
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "024f579c-bd19-41e5-988d-56c3ed1ad2ec")
+		)
+		(pin "2"
+			(uuid "4d6f0d83-eadc-4c02-8207-18f3fb8ee4c8")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3991,6 +5684,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4660639-125f-41fc-b00c-cae3f380e334")
+		(property "Reference" "#PWR034"
+			(at 274.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03509022-1b10-41e9-b492-d313bd239355")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 43.18 125.73 0)
 		(unit 1)
@@ -4315,6 +6074,74 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 269.24 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7cf155f-d8d6-4168-abca-ab2c79ad9f94")
+		(property "Reference" "SW5"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 269.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9727c0a-3bc5-4bd7-bdb5-a94a73c90a09")
+		)
+		(pin "2"
+			(uuid "58ef586e-a0f2-4f00-956f-2c443fe7a0fc")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
