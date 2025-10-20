@@ -1557,6 +1557,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73351998-7707-4dd0-bd91-4ddac260ce4e")
+	)
+	(wire
+		(pts
 			(xy 27.94 125.73) (xy 27.94 119.38)
 		)
 		(stroke
@@ -1987,6 +1997,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 125.73) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8492abf-12f0-4dae-a8b1-0c417753feb8")
+	)
+	(wire
+		(pts
 			(xy 274.32 93.98) (xy 274.32 101.6)
 		)
 		(stroke
@@ -2024,6 +2044,28 @@
 			(type default)
 		)
 		(uuid "ff388d60-9cd9-4b2f-8075-4004eea0721b")
+	)
+	(global_label "avref"
+		(shape input)
+		(at 99.06 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32a9d55e-0632-4267-9889-23fe2f292225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.7623 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "a0"
 		(shape input)
@@ -2752,6 +2794,72 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad7dcb0-0a5f-4c80-aca2-7102041818f7")
+		(property "Reference" "#PWR052"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7413d417-e1f0-49e3-bc2d-e89dd4e820fa")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4280,6 +4388,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 95.25 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8620100e-3182-4bd8-997b-0f8136dec4d6")
+		(property "Reference" "#PWR053"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a94de7a-a184-4e06-b193-7de3dd48d55f")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 43.18 67.31 0)
 		(unit 1)
@@ -4622,6 +4796,72 @@
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 95.25 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8a09ee-73b7-43c4-8dc4-7ba2116f2d43")
+		(property "Reference" "#PWR051"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "112da157-5d5e-4b17-bd6a-6adff4f4f4e2")
+		)
+		(instances
+			(project "jhl_synth0"
+				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
