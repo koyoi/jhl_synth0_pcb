@@ -617,6 +617,10 @@
     [
       "b9c4a3cd-fccf-4320-9872-7d13d3edfdd1",
       "pots"
+    ],
+    [
+      "9a44079e-603c-4739-9091-bf1c7a0fb779",
+      "leds"
     ]
   ],
   "text_variables": {}
