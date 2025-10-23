@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b81a6a-0754-4c68-9c15-8ec01c4f4b13")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR026"
 			(at 43.18 104.14 0)
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR06")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ff5cb72-25f4-4f86-a3e4-454d8097bdb7")
-		(property "Reference" "RV10"
+		(property "Reference" "RV4"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -2511,7 +2511,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV10")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f6857f-e71a-4fa7-966b-95e49bd90147")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2667,7 +2667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c592266-5c1d-410e-b724-c35af065ae9c")
-		(property "Reference" "RV12"
+		(property "Reference" "RV8"
 			(at 83.82 55.88 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV12")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 149.86 0)
 			(effects
 				(font
@@ -2809,7 +2809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad7dcb0-0a5f-4c80-aca2-7102041818f7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR034"
 			(at 101.6 132.08 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR052")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2875,7 +2875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d64f86d-d7e2-463c-a159-bd16a09505da")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR027"
 			(at 274.32 109.22 0)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR035")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff7b2ba-b204-4d40-95a6-c4b773127c18")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 274.32 157.48 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3075,7 +3075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54e10ee6-3d6c-485d-8f6a-3afa7b9c0d23")
-		(property "Reference" "RV5"
+		(property "Reference" "RV15"
 			(at 31.496 85.598 0)
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV5")
+					(reference "RV15")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578710dd-18ad-4cd8-afee-4fd5b4e021a7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR024"
 			(at 43.18 90.17 0)
 			(effects
 				(font
@@ -3267,7 +3267,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR05")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3283,7 +3283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d04af74-efcb-4f15-98db-7c7158e5227b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 82.55 72.39 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3349,7 +3349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60bfe1cd-bcc4-4c04-b0a3-8f07b27cfbf2")
-		(property "Reference" "RV7"
+		(property "Reference" "RV17"
 			(at 31.496 113.538 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV7")
+					(reference "RV17")
 					(unit 1)
 				)
 			)
@@ -3439,7 +3439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 54.61 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fa035f-9d81-49cc-accf-36435d4aef7e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 274.32 135.89 0)
 			(effects
 				(font
@@ -3541,7 +3541,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "697e1a3f-2c0e-445a-9c3d-5a33f422a4a1")
-		(property "Reference" "RV18"
+		(property "Reference" "RV11"
 			(at 107.696 56.388 0)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV18")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bea3dda-eea3-4820-b814-dea6905d7fed")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 82.55 44.45 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743b67f8-ca2f-45fb-9b7b-0da7467040f2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR017"
 			(at 274.32 62.23 0)
 			(effects
 				(font
@@ -3747,7 +3747,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR036")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3847,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 80.01 0)
 			(effects
 				(font
@@ -3915,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 128.27 0)
 			(effects
 				(font
@@ -4109,7 +4109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83922589-c0bf-48f1-a6d7-2a5804c2e0d3")
-		(property "Reference" "RV8"
+		(property "Reference" "RV18"
 			(at 44.45 115.57 0)
 			(effects
 				(font
@@ -4167,7 +4167,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV8")
+					(reference "RV18")
 					(unit 1)
 				)
 			)
@@ -4183,7 +4183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "840b075c-468b-4874-8c48-283b58d805ef")
-		(property "Reference" "RV3"
+		(property "Reference" "RV9"
 			(at 31.496 55.118 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV3")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84a24927-9515-4951-9648-8e92f50cfa7b")
-		(property "Reference" "RV6"
+		(property "Reference" "RV16"
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV6")
+					(reference "RV16")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85ac7a93-f58c-4cb6-acc7-3efaa78390cb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 82.55 101.6 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8620100e-3182-4bd8-997b-0f8136dec4d6")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR030"
 			(at 95.25 118.11 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR053")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4463,7 +4463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89191ead-55d6-4801-95c5-a7d8e74ba445")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 43.18 73.66 0)
 			(effects
 				(font
@@ -4513,7 +4513,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR04")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4597,7 +4597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90ff4bb6-d4e8-4cca-93f5-31d8ab9bf2a6")
-		(property "Reference" "RV9"
+		(property "Reference" "RV3"
 			(at 70.866 25.908 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV9")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -4745,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a05830c-4d73-4cf8-9a61-a6a3f314a42f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR011"
 			(at 274.32 40.64 0)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR037")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4811,7 +4811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8a09ee-73b7-43c4-8dc4-7ba2116f2d43")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR033"
 			(at 95.25 132.08 0)
 			(effects
 				(font
@@ -4861,7 +4861,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR051")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4877,7 +4877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a02104ac-540b-46fd-beb4-133c239b9df0")
-		(property "Reference" "RV15"
+		(property "Reference" "RV19"
 			(at 70.866 113.538 0)
 			(effects
 				(font
@@ -4935,7 +4935,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV15")
+					(reference "RV19")
 					(unit 1)
 				)
 			)
@@ -4951,7 +4951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09e4685-507b-4c37-9cec-4be26edec79d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 119.38 60.96 0)
 			(effects
 				(font
@@ -5001,7 +5001,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a442cc5a-f178-42aa-9989-fb0c0948fde8")
-		(property "Reference" "RV16"
+		(property "Reference" "RV20"
 			(at 83.82 115.57 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV16")
+					(reference "RV20")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60b9c7c-ebd5-4ba2-89fb-3f68a60e75cb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR028"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -5141,7 +5141,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR07")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5173,7 +5173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-110x"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 269.24 101.6 0)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a78f3494-9ac7-41c7-a408-46b8d0eb09e3")
-		(property "Reference" "RV20"
+		(property "Reference" "RV12"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV20")
+					(reference "RV12")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3765aa-daf3-4ae2-aa3e-9b78e04faee4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 43.18 30.48 0)
 			(effects
 				(font
@@ -5423,7 +5423,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5439,7 +5439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af82decd-9e3d-4c07-9f6d-596b493b03d6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 43.18 44.45 0)
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5505,7 +5505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e57b30-1cd7-443d-b8df-b05b02548b5e")
-		(property "Reference" "RV19"
+		(property "Reference" "RV6"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -5563,7 +5563,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV19")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -5579,7 +5579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c5a183-7a24-41cf-93ff-c28a4a3ed3aa")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR032"
 			(at 82.55 132.08 0)
 			(effects
 				(font
@@ -5629,7 +5629,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR016")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5645,7 +5645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cadd4dcb-c730-47ac-9ca8-39854b5fcaca")
-		(property "Reference" "RV4"
+		(property "Reference" "RV10"
 			(at 44.45 57.15 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV4")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd41e934-e706-411a-b9d8-c1cbf8503639")
-		(property "Reference" "RV17"
+		(property "Reference" "RV5"
 			(at 107.696 25.908 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV17")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35d29ec-8bd3-42eb-bdfc-bc10ea1ef95a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR010"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR028")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c51c78-b0b6-4913-9bbb-dc8fd55948ee")
-		(property "Reference" "RV11"
+		(property "Reference" "RV7"
 			(at 70.866 53.848 0)
 			(effects
 				(font
@@ -5917,7 +5917,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "RV11")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -5933,7 +5933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4660639-125f-41fc-b00c-cae3f380e334")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR022"
 			(at 274.32 87.63 0)
 			(effects
 				(font
@@ -5983,7 +5983,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR034")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5999,7 +5999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71e1f8c-df37-4a4e-8786-9af142a58357")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR031"
 			(at 43.18 132.08 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR08")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7828598-94b1-49eb-9484-0ab1700bf934")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR021"
 			(at 119.38 74.93 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR031")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9768cd3-9b4b-43b0-9704-7c3a0771414c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR029"
 			(at 82.55 118.11 0)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR015")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea893434-471a-4e11-8835-a07882b4bae4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23cd3d7-76bf-4bb2-be27-f54d304a90f0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 43.18 59.69 0)
 			(effects
 				(font
@@ -6313,7 +6313,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc026cbd-9b05-43c2-a547-649c97cb45a0")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR014"
 			(at 119.38 44.45 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 		(instances
 			(project "jhl_synth0"
 				(path "/741c1ed7-985b-444a-bdc7-4b9785d43bbb/b9c4a3cd-fccf-4320-9872-7d13d3edfdd1"
-					(reference "#PWR029")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
