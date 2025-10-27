@@ -16732,7 +16732,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "200k"
 			(at 246.38 68.5799 0)
 			(effects
 				(font
