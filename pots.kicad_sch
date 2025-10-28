@@ -2425,7 +2425,7 @@
 		)
 		(uuid "01d38190-fcec-41a5-aba7-678ddd0f7f1a")
 	)
-	(hierarchical_label "sw3"
+	(hierarchical_label "sw9"
 		(shape input)
 		(at 238.76 93.98 180)
 		(effects
@@ -2458,7 +2458,7 @@
 		)
 		(uuid "4b4026c9-8211-4d97-95cc-8dc1a64f223e")
 	)
-	(hierarchical_label "sw2"
+	(hierarchical_label "sw8"
 		(shape input)
 		(at 238.76 72.39 180)
 		(effects
@@ -2469,7 +2469,7 @@
 		)
 		(uuid "54dc1a36-5ddf-400b-a4e8-38a79991cd14")
 	)
-	(hierarchical_label "sw0"
+	(hierarchical_label "sw6"
 		(shape input)
 		(at 238.76 25.4 180)
 		(effects
@@ -2524,7 +2524,7 @@
 		)
 		(uuid "99ebd268-8363-4c5b-b93b-4f3c81ba5c0b")
 	)
-	(hierarchical_label "sw1"
+	(hierarchical_label "sw7"
 		(shape input)
 		(at 238.76 46.99 180)
 		(effects
